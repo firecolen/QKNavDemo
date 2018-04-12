@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		189E5CB32062AF98004AF5A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E5CB22062AF98004AF5A9 /* AppDelegate.m */; };
-		189E5CB62062AF98004AF5A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E5CB52062AF98004AF5A9 /* ViewController.m */; };
 		189E5CB92062AF98004AF5A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189E5CB72062AF98004AF5A9 /* Main.storyboard */; };
 		189E5CBB2062AF98004AF5A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189E5CBA2062AF98004AF5A9 /* Assets.xcassets */; };
 		189E5CBE2062AF98004AF5A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189E5CBC2062AF98004AF5A9 /* LaunchScreen.storyboard */; };
 		189E5CC12062AF98004AF5A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E5CC02062AF98004AF5A9 /* main.m */; };
 		189E5CCB2062AF99004AF5A9 /* QKNavDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E5CCA2062AF99004AF5A9 /* QKNavDemoTests.m */; };
 		189E5CD62062AF99004AF5A9 /* QKNavDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E5CD52062AF99004AF5A9 /* QKNavDemoUITests.m */; };
+		189E5CE72062B1FD004AF5A9 /* QKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E5CE62062B1FD004AF5A9 /* QKRootViewController.m */; };
+		189E5CEA2062B21A004AF5A9 /* QKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E5CE92062B21A004AF5A9 /* QKTableViewController.m */; };
+		189E5D132062BB4A004AF5A9 /* QKNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E5D122062BB4A004AF5A9 /* QKNavView.m */; };
+		189E5D162062BC22004AF5A9 /* QKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E5D152062BC22004AF5A9 /* QKBaseViewController.m */; };
+		189E5D1B2062C725004AF5A9 /* root_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189E5D192062C725004AF5A9 /* root_next@2x.png */; };
+		189E5D1C2062C725004AF5A9 /* nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189E5D1A2062C725004AF5A9 /* nav_back@2x.png */; };
+		189E5D1E20633094004AF5A9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 189E5D1D20633094004AF5A9 /* Podfile */; };
+		4C42001E406EF3EE4615CA50 /* libPods-QKNavDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3C0AC018B346041871D2D4 /* libPods-QKNavDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +45,6 @@
 		189E5CAE2062AF98004AF5A9 /* QKNavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKNavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189E5CB12062AF98004AF5A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		189E5CB22062AF98004AF5A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		189E5CB42062AF98004AF5A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		189E5CB52062AF98004AF5A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		189E5CB82062AF98004AF5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189E5CBA2062AF98004AF5A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189E5CBD2062AF98004AF5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,21 @@
 		189E5CD12062AF99004AF5A9 /* QKNavDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKNavDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189E5CD52062AF99004AF5A9 /* QKNavDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKNavDemoUITests.m; sourceTree = "<group>"; };
 		189E5CD72062AF99004AF5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189E5CE52062B1FD004AF5A9 /* QKRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKRootViewController.h; sourceTree = "<group>"; };
+		189E5CE62062B1FD004AF5A9 /* QKRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKRootViewController.m; sourceTree = "<group>"; };
+		189E5CE82062B21A004AF5A9 /* QKTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKTableViewController.h; sourceTree = "<group>"; };
+		189E5CE92062B21A004AF5A9 /* QKTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKTableViewController.m; sourceTree = "<group>"; };
+		189E5D112062BB4A004AF5A9 /* QKNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKNavView.h; sourceTree = "<group>"; };
+		189E5D122062BB4A004AF5A9 /* QKNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKNavView.m; sourceTree = "<group>"; };
+		189E5D142062BC22004AF5A9 /* QKBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKBaseViewController.h; sourceTree = "<group>"; };
+		189E5D152062BC22004AF5A9 /* QKBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKBaseViewController.m; sourceTree = "<group>"; };
+		189E5D172062BD2B004AF5A9 /* QKNavDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QKNavDemo-Prefix.pch"; sourceTree = "<group>"; };
+		189E5D192062C725004AF5A9 /* root_next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_next@2x.png"; sourceTree = "<group>"; };
+		189E5D1A2062C725004AF5A9 /* nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_back@2x.png"; sourceTree = "<group>"; };
+		189E5D1D20633094004AF5A9 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E3C0AC018B346041871D2D4 /* libPods-QKNavDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QKNavDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20879603E8EA36926AD8508 /* Pods-QKNavDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKNavDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKNavDemo/Pods-QKNavDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CE078F6D552B216151255092 /* Pods-QKNavDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKNavDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKNavDemo/Pods-QKNavDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C42001E406EF3EE4615CA50 /* libPods-QKNavDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +102,13 @@
 		189E5CA52062AF98004AF5A9 = {
 			isa = PBXGroup;
 			children = (
+				189E5D1D20633094004AF5A9 /* Podfile */,
 				189E5CB02062AF98004AF5A9 /* QKNavDemo */,
 				189E5CC92062AF99004AF5A9 /* QKNavDemoTests */,
 				189E5CD42062AF99004AF5A9 /* QKNavDemoUITests */,
 				189E5CAF2062AF98004AF5A9 /* Products */,
+				8809294AAB2D81C0D7A21058 /* Pods */,
+				2CA27A50697AA2477FAE3F0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +125,23 @@
 		189E5CB02062AF98004AF5A9 /* QKNavDemo */ = {
 			isa = PBXGroup;
 			children = (
+				189E5D182062C725004AF5A9 /* Image */,
 				189E5CB12062AF98004AF5A9 /* AppDelegate.h */,
 				189E5CB22062AF98004AF5A9 /* AppDelegate.m */,
-				189E5CB42062AF98004AF5A9 /* ViewController.h */,
-				189E5CB52062AF98004AF5A9 /* ViewController.m */,
+				189E5CE52062B1FD004AF5A9 /* QKRootViewController.h */,
+				189E5CE62062B1FD004AF5A9 /* QKRootViewController.m */,
+				189E5CE82062B21A004AF5A9 /* QKTableViewController.h */,
+				189E5CE92062B21A004AF5A9 /* QKTableViewController.m */,
 				189E5CB72062AF98004AF5A9 /* Main.storyboard */,
 				189E5CBA2062AF98004AF5A9 /* Assets.xcassets */,
 				189E5CBC2062AF98004AF5A9 /* LaunchScreen.storyboard */,
 				189E5CBF2062AF98004AF5A9 /* Info.plist */,
 				189E5CC02062AF98004AF5A9 /* main.m */,
+				189E5D112062BB4A004AF5A9 /* QKNavView.h */,
+				189E5D122062BB4A004AF5A9 /* QKNavView.m */,
+				189E5D142062BC22004AF5A9 /* QKBaseViewController.h */,
+				189E5D152062BC22004AF5A9 /* QKBaseViewController.m */,
+				189E5D172062BD2B004AF5A9 /* QKNavDemo-Prefix.pch */,
 			);
 			path = QKNavDemo;
 			sourceTree = "<group>";
@@ -132,6 +164,32 @@
 			path = QKNavDemoUITests;
 			sourceTree = "<group>";
 		};
+		189E5D182062C725004AF5A9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				189E5D192062C725004AF5A9 /* root_next@2x.png */,
+				189E5D1A2062C725004AF5A9 /* nav_back@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		2CA27A50697AA2477FAE3F0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E3C0AC018B346041871D2D4 /* libPods-QKNavDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8809294AAB2D81C0D7A21058 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A20879603E8EA36926AD8508 /* Pods-QKNavDemo.debug.xcconfig */,
+				CE078F6D552B216151255092 /* Pods-QKNavDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189E5CDA2062AF99004AF5A9 /* Build configuration list for PBXNativeTarget "QKNavDemo" */;
 			buildPhases = (
+				5EDD6EB2141685451FA44BF6 /* [CP] Check Pods Manifest.lock */,
 				189E5CAA2062AF98004AF5A9 /* Sources */,
 				189E5CAB2062AF98004AF5A9 /* Frameworks */,
 				189E5CAC2062AF98004AF5A9 /* Resources */,
+				A986EBE6F6DBA8CC6BBDB8C1 /* [CP] Embed Pods Frameworks */,
+				A0CD6E28F670C726FBFB3C1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +299,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189E5D1C2062C725004AF5A9 /* nav_back@2x.png in Resources */,
 				189E5CBE2062AF98004AF5A9 /* LaunchScreen.storyboard in Resources */,
 				189E5CBB2062AF98004AF5A9 /* Assets.xcassets in Resources */,
 				189E5CB92062AF98004AF5A9 /* Main.storyboard in Resources */,
+				189E5D1E20633094004AF5A9 /* Podfile in Resources */,
+				189E5D1B2062C725004AF5A9 /* root_next@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,13 +324,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EDD6EB2141685451FA44BF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QKNavDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0CD6E28F670C726FBFB3C1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QKNavDemo/Pods-QKNavDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A986EBE6F6DBA8CC6BBDB8C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QKNavDemo/Pods-QKNavDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		189E5CAA2062AF98004AF5A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189E5CB62062AF98004AF5A9 /* ViewController.m in Sources */,
+				189E5CE72062B1FD004AF5A9 /* QKRootViewController.m in Sources */,
+				189E5CEA2062B21A004AF5A9 /* QKTableViewController.m in Sources */,
+				189E5D162062BC22004AF5A9 /* QKBaseViewController.m in Sources */,
 				189E5CC12062AF98004AF5A9 /* main.m in Sources */,
+				189E5D132062BB4A004AF5A9 /* QKNavView.m in Sources */,
 				189E5CB32062AF98004AF5A9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +546,11 @@
 		};
 		189E5CDB2062AF99004AF5A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20879603E8EA36926AD8508 /* Pods-QKNavDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "QKNavDemo/QKNavDemo-Prefix.pch";
 				INFOPLIST_FILE = QKNavDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qkkj.QKNavDemo;
@@ -441,9 +561,11 @@
 		};
 		189E5CDC2062AF99004AF5A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE078F6D552B216151255092 /* Pods-QKNavDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "QKNavDemo/QKNavDemo-Prefix.pch";
 				INFOPLIST_FILE = QKNavDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qkkj.QKNavDemo;
