@@ -30,6 +30,7 @@ static NSString *QKIdentifier = @"QKIdentifier";
         make.bottom.equalTo(self.view).with.offset(0);
     }];
     self.navView.lblTitle.text = @"导航";
+    
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:QKIdentifier];
     self.tableView.contentInset = UIEdgeInsetsMake(kOriHeight, 0, 0, 0);
